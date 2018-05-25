@@ -1,0 +1,39 @@
+body {background-color: #a44a3f;
+
+
+}
+
+p {
+ font-family: cursive;
+  color: white ;
+}
+
+
+p:nth-of-type(2){
+  background-color:#80a1d4;
+   font-family:fantasy;
+   font-style: italic;
+   font-size: 30px;
+}
+p:nth-of-type(4){
+  background-color:#80a1d4;
+   font-family:fantasy;
+   font-style: italic;
+   font-size: 30px;
+}
+
+h2, h3, h4, h5, h6{
+      color: #94a89a;
+  }
+
+  h1 {
+      font-size: 40px;
+  }
+
+  h2 {
+      font-size: 30px;
+  }
+
+  p {
+      font-size: 14px;
+  }

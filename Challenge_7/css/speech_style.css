@@ -1,0 +1,38 @@
+#speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: 1.4em;
+  height:130px;
+  padding: 16px;
+  width: 200px;
+  /* border-radius: 30px; */
+  left: 40%;
+  padding-right: 0px;
+}
+
+#speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: -29px;
+	top: 32%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0px solid transparent;
+  border-right: 50px solid #00aabb;
+	margin-top: -20px;
+	margin-left: -19px;
+}
+
+  #speech-bubble{
+    text-align: center;
+
+  }
+
+
+:sweat:{
+	position: absolute;
+	height:auto;
+	width: auto;
+}
